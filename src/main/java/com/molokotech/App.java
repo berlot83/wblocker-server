@@ -14,7 +14,7 @@ import org.openimaj.image.typography.hershey.HersheyFont;
 public class App {
     public static void main( String[] args ) {
     	//Create an image
-        MBFImage image = new MBFImage(320,70, ColourSpace.RGB);
+        MBFImage image = new MBFImage(640,480, ColourSpace.RGB);
 
         //Fill the image with white
         image.fill(RGBColour.WHITE);
